@@ -6,4 +6,4 @@
 
 !INSTRUCTIONS[][overview]
 
-!INSTRUCTIONS[](https://raw.githubusercontent.com/LODSContent/Challenge-V2-Framework/main/Templates/LabHelp.md)
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LODSContent/Challenge-V2-Framework/master/Templates/LabHelp.md)
