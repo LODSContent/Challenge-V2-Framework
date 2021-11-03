@@ -6,4 +6,4 @@
 
 !INSTRUCTIONS[][requirement-4-tasks]
 
-## !INSTRUCTIONS[][requirement-4-check-your-work]
+!INSTRUCTIONS[][requirement-4-check-your-work]
