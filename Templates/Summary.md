@@ -6,6 +6,10 @@ Click below to **Submit** your lab for scoring.
 
 <span class=warn-icon>Once you select **Submit**, you will not be able to return to this challenge.</span>
 
+### In this Challenge Lab you:
+
+!INSTRUCTIONS[][Recap]
+
 ### Be sure to check out these Challenge Labs in the vCenter series!
 
 Other challenges in this series:

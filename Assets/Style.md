@@ -1,5 +1,4 @@
 <style>
-
 .instructions h1 {
     padding-top: 1em;
 }
@@ -12,6 +11,12 @@
 .instructions .page>p:nth-child(3) {
     padding: 0 0 .75em .5em;
 }
+
+.instructions .page img {
+    max-width: 75%;
+    display: block;
+}
+
 
 /* Page 0 */
 
@@ -30,7 +35,7 @@
 }
 
 .instructions h1,
-h2 {
+.instructions h2 {
     color: #666;
 }
 
@@ -53,6 +58,7 @@ h2 {
 .instructions #page0 details span[class$="-icon"] {
     margin: 1.1em 0 1.1em 3em;
 }
+
 
 /* Logos */
 
@@ -81,6 +87,7 @@ h2 {
     background-image: url(https://lodmanuals.blob.core.windows.net/lms/2020%20Challenge%20Labs%20Graphics/Challenge-Labs-Expert-16x9.jpg);
 }
 
+
 /* Tables */
 
 .instructions .page table td {
@@ -93,6 +100,7 @@ h2 {
     margin: 1.5em 0 2em 0;
     background-color: red
 }
+
 
 /* Icons */
 
@@ -109,16 +117,16 @@ h2 {
     margin: auto .75em auto 1em;
 }
 
-.instructions .copyIcon::before {
+.instructions .labhelp .copyIcon::before {
     content: "\e8c8";
     font-family: "labclient";
-    font-size: 1.5em;
-    margin: auto 1em auto 1em;
+    font-size: 1.7em;
+    margin: auto 1em auto 0.4em;
     color: green;
 }
 
-.instructions .typeIcon,
-.instructions .copyIcon {
+.instructions .labhelp .typeIcon,
+.instructions .labhelp .copyIcon {
     display: flex;
     margin: 1.1em 0 1.1em 2.1em;
 }
@@ -233,4 +241,18 @@ h2 {
 .instructions pre code {
     padding-left: 40px;
 }
+
+
+/* Lists */
+
+.instructions details ol {
+    padding-left: 65px;
+}
+
+.instructions .page ol li ol {
+    list-style-type: decimal;
+}
+
+.instructions .page ol li ol.linenums { list-style-type: none }
+
 </style>
