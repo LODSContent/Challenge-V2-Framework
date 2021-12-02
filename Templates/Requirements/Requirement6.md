@@ -2,7 +2,7 @@
 
 #### !INSTRUCTIONS[][requirement-6-subtitle]
 
-!INSTRUCTIONS[][requirement-6-scenerio]
+!INSTRUCTIONS[][requirement-6-scenario]
 
 !INSTRUCTIONS[][requirement-6-tasks]
 
