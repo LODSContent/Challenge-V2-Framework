@@ -31,17 +31,15 @@
 
 .instructions #instructionschallenge-name>div>p {
     margin: .5em 0 .5em 0;
-    color: #666;
-}
-
-.instructions h1,
-.instructions h2 {
-    color: #666;
 }
 
 .instructions ol,
 .instructions ul {
     padding: 0 1em;
+}
+
+.instructions ul ul{
+    padding-left: 5em;
 }
 
 .instructions #page0 h2 {
@@ -71,12 +69,8 @@
     background-repeat: no-repeat;
 }
 
-.instructions .logo-getting-started {
-    background-image: url(https://lodmanuals.blob.core.windows.net/lms/2020%20Challenge%20Labs%20Graphics/Challenge-Labs-Getting-Started-16x9.jpg);
-}
-
 .instructions .logo-guided {
-    background-image: url(https://lodmanuals.blob.core.windows.net/lms/2020%20Challenge%20Labs%20Graphics/Challenge-Labs-Guided-16x9v1.1.jpg);
+    background-image: url(https://lodmanuals.blob.core.windows.net/lms/2020%20Challenge%20Labs%20Graphics/Challenge-Labs-Guided-16x9.jpg);
 }
 
 .instructions .logo-advanced {
@@ -254,5 +248,11 @@
 }
 
 .instructions .page ol li ol.linenums { list-style-type: none }
+
+div[ref=challenge-title],
+div[ref=challenge-title] p
+{
+	display: inline;
+}
 
 </style>
