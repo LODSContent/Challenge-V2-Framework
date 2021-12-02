@@ -57,6 +57,10 @@
     margin: 1.1em 0 1.1em 3em;
 }
 
+/* Other pages*/
+.instructions h1 div p {
+    margin: 0.125em, 0;
+}
 
 /* Logos */
 
