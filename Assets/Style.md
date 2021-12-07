@@ -58,7 +58,7 @@
 }
 
 /* Other pages*/
-.instructions h1 div p {
+.instructions h1[id$="-title"] div p {
     margin: 0.125em, 0;
 }
 
