@@ -1,7 +1,5 @@
 # !INSTRUCTIONS[][requirement-9-title]
 
-#### !INSTRUCTIONS[][requirement-9-subtitle]
-
 !INSTRUCTIONS[][requirement-9-scenario]
 
 !INSTRUCTIONS[][requirement-9-tasks]
