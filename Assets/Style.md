@@ -271,4 +271,9 @@ div[ref=challenge-title],
 div[ref=challenge-title] p {
     display: inline;
 }
+
+#page0 { 
+    text-align:left; 
+    padding:15px 20px;        
+}
 </style>
