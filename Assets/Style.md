@@ -145,7 +145,7 @@
 .instructions details summary::after {
     display: inline-block;
     content: " ";
-    background-image: url("https://labondemand.blob.core.windows.net/content/lab104545/arrow.svg");
+    background-image: url("https://lodmanuals.blob.core.windows.net/lms/2020%20Challenge%20Labs%20Graphics/arrow.svg");
     /* Height/width needs to match image bg */
     height: 13.5px;
     width: 7.5px;
