@@ -38,6 +38,10 @@
     padding: 0 1em;
 }
 
+.instructionsblock > ul{
+    margin-inline-start: 1.9em;
+}
+
 .instructions ul ul{
     padding-left: 5em;
 }
@@ -88,7 +92,6 @@ h1#instructionschallenge-title {
 .instructions .logo-expert {
     background-image: url(https://lodmanuals.blob.core.windows.net/lms/2020%20Challenge%20Labs%20Graphics/Challenge-Labs-Expert-16x9.jpg);
 }
-
 
 /* Tables */
 
@@ -170,7 +173,7 @@ h1#instructionschallenge-title {
     vertical-align: middle;
 }
 
-.instructions .hint-icon summary,
+.instructions details.hint-icon summary,
 .instructions span.hint-icon {
     background-size: 23px !important;
     background: url(https://labondemand.blob.core.windows.net/content/lab104545/hint-icon.png) no-repeat left center;
@@ -244,7 +247,6 @@ h1#instructionschallenge-title {
     padding-left: 40px;
 }
 
-
 /* Lists */
 
 .instructions details ol {
@@ -255,11 +257,12 @@ h1#instructionschallenge-title {
     list-style-type: decimal;
 }
 
-.instructions .page ol li ol.linenums { list-style-type: none }
+.instructions .page ol li ol.linenums { 
+    list-style-type: none 
+}
 
 div[ref=challenge-title],
-div[ref=challenge-title] p
-{
+div[ref=challenge-title] p {
 	display: inline;
 }
 

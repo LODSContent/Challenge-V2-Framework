@@ -17,6 +17,9 @@
     display: block;
 }
 
+.instructions > ul {
+    margin-inline-start: 1.9em;
+}
 
 /* Page 0 */
 
@@ -38,6 +41,10 @@
     padding: 0 1em;
 }
 
+.instructionsblock > ul{
+    margin-inline-start: 1.9em;
+}
+
 .instructions ul ul{
     padding-left: 5em;
 }
@@ -49,6 +56,7 @@
 h1#instructionschallenge-title {
     text-align: center;
 }
+
 
 .instructions .labhelp ul,
 .instructions .labhelp li {

@@ -13,6 +13,10 @@
     display: block;
 }
 
+.instructions > ul {
+    margin-inline-start: 1.9em;
+}
+
 /* Page 0 */
 
 .instructions #instructionschallenge-name {
@@ -39,6 +43,7 @@
 
 .instructionsblock ul {
     margin-top: 0;
+    margin-inline-start: 1.9em;
 }
 
 #page0 {
