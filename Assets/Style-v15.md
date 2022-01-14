@@ -46,6 +46,10 @@
     margin-top: 1.5em;
 }
 
+h1#instructionschallenge-title {
+    text-align: center;
+}
+
 .instructions .labhelp ul,
 .instructions .labhelp li {
     list-style: none;
