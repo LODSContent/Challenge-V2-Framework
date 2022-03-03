@@ -1,4 +1,8 @@
 <style>
+.instructions h1 {
+    padding-top: 1em;
+}
+
 .instructions .page {
     /* padding: 15px 20px; */
     padding: 1em 1.4em;
@@ -7,10 +11,14 @@
 .instructions .page>p:nth-child(3) {
     padding: 0 0 .75em .5em;
 }
-  
+
 .instructions .page img {
     max-width: 75%;
     display: block;
+}
+
+.instructions > ul {
+    margin-inline-start: 1.9em;
 }
 
 /* Page 0 */
@@ -33,11 +41,12 @@
     padding: 0 1em;
 }
 
-.instructions ul ul {
-    padding-left: 3em;
-}
 .instructionsblock > ul{
     margin-inline-start: 1.9em;
+}
+
+.instructions ul ul{
+    padding-left: 5em;
 }
 
 .instructions #page0 h2 {
@@ -48,6 +57,7 @@ h1#instructionschallenge-title {
     text-align: center;
 }
 
+
 .instructions .labhelp ul,
 .instructions .labhelp li {
     list-style: none;
@@ -56,17 +66,12 @@ h1#instructionschallenge-title {
 }
 
 .instructions #page0 details span[class$="-icon"] {
-    margin: 0.5em 0 0.1em 3em
+    margin: 1.1em 0 1.1em 3em;
 }
 
 /* Other pages*/
 .instructions h1[id$="-title"] div p {
-    margin: 0;
-}
-
-h1:first-child{
-    margin: 0;
-    padding-bottom: 5px;
+    margin: 0.125em, 0;
 }
 
 /* Logos */
@@ -92,6 +97,7 @@ h1:first-child{
     background-image: url(https://lodmanuals.blob.core.windows.net/lms/2020%20Challenge%20Labs%20Graphics/Challenge-Labs-Expert-16x9.jpg);
 }
 
+
 /* Tables */
 
 .instructions .page table td {
@@ -105,6 +111,7 @@ h1:first-child{
     background-color: red
 }
 
+
 /* Icons */
 
 .instructions .typeIcon::before {
@@ -114,32 +121,24 @@ h1:first-child{
     font-weight: bold;
     color: green;
     vertical-align: middle;
-    width: 5px;
-    height: 13px;
-    padding: .2em .7em .3em .45em;
-    margin: auto 1.75em auto 0;
+    width: 7px;
+    height: 17px;
+    padding: .3em .7em .3em .5em;
+    margin: auto .75em auto 1em;
 }
 
 .instructions .labhelp .copyIcon::before {
     content: "\e8c8";
     font-family: "labclient";
     font-size: 1.7em;
-    margin: auto 1em auto 0;
+    margin: auto 1em auto 0.4em;
     color: green;
 }
 
+.instructions .labhelp .typeIcon,
 .instructions .labhelp .copyIcon {
     display: flex;
-    margin: 1.1em 0 0 3em;
-}
-
-.instructions .labhelp .typeIcon {
-    display: flex;
-    margin: 0.7em 0 0.2em 3em;
-}
-
-.instructions #page0 .labhelp span.hint-icon {
-    padding: .4em 1em .4em 3.5em;
+    margin: 1.1em 0 1.1em 2.1em;
 }
 
 .instructions details {
@@ -179,9 +178,8 @@ h1:first-child{
     vertical-align: middle;
 }
 
-.instructions details.hint-icon summary,
+.instructions .hint-icon summary,
 .instructions span.hint-icon {
-    padding: .4em 1em .4em 3em;
     background-size: 23px !important;
     background: url(https://labondemand.blob.core.windows.net/content/lab104545/hint-icon.png) no-repeat left center;
 }
@@ -200,7 +198,6 @@ h1:first-child{
 
 .instructions .help-icon summary,
 .instructions span.help-icon {
-    padding: 0.4em 1em 0.4em 3em;
     background-size: 23px !important;
     background: url(https://labondemand.blob.core.windows.net/content/lab104545/help-icon.png) no-repeat left center;
 }
@@ -210,6 +207,7 @@ h1:first-child{
     background-size: 23px !important;
     background: url(https://labondemand.blob.core.windows.net/content/lab104545/warn-icon.png) no-repeat left center;
     color: red;
+    padding-left: 2.5em;
 }
 
 .instructions #instructionsNavigation {
@@ -240,7 +238,6 @@ h1:first-child{
     position: relative;
     top: 3px;
     right: 2px;
-
     margin: 0;
 }
 
@@ -248,13 +245,13 @@ h1:first-child{
     position: relative;
     top: 3px;
     left: 4px;
-
     margin: 0;
 }
 
 .instructions pre code {
     padding-left: 40px;
 }
+
 
 /* Lists */
 
@@ -266,18 +263,12 @@ h1:first-child{
     list-style-type: decimal;
 }
 
-
-.instructions .page ol li ol.linenums { 
-    list-style-type: none 
-}
+.instructions .page ol li ol.linenums { list-style-type: none }
 
 div[ref=challenge-title],
-div[ref=challenge-title] p {
-    display: inline;
+div[ref=challenge-title] p
+{
+	display: inline;
 }
 
-#page0 { 
-    text-align:left; 
-    padding:15px 20px;        
-}
 </style>
