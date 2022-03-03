@@ -5,7 +5,7 @@
 !INSTRUCTIONS[](https://raw.githubusercontent.com/LODSContent/Challenge-V2-Framework/master/Templates/Environments/@lab.Variable(cloudEnvironment).md)
 
 <details class=info-icon>
-<summary title="Select for More...">Quick tips for navigating the lab instructions.</summary>
+<summary title="Select for More...">Quick tips for navigating the challenge lab instructions.</summary>
 <span class=copyIcon>Select the Copy to Clipboard icon to copy the green text.</span>
 <span class=typeIcon>Select the Type Text icon to insert the green text directly into the lab.</span>
 <span class=warn-icon>An Alert tells you that a task requires extra care.</span>
