@@ -2,7 +2,7 @@
 
 # !INSTRUCTIONS[][challenge-title]
 
-## Your Challenge:
+## Your challenge
 
 !INSTRUCTIONS[][overview]
 
