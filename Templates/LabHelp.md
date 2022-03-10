@@ -1,4 +1,4 @@
-## Navigating the lab
+## Navigating the Challenge Lab
 
 ::: labhelp
 
@@ -7,7 +7,7 @@
 <details class=info-icon>
 <summary title="Select for More...">Quick tips for navigating the Challenge Lab instructions.</summary>
 <span class=copyIcon>Select the Copy to Clipboard icon to copy the green text.</span>
-<span class=typeIcon>Select the Type Text icon to insert the green text directly into the lab.</span>
+<span class=typeIcon>Select the Type Text icon to insert the green text directly into the Challenge Lab environment.</span>
 <span class=warn-icon>An Alert tells you that a task requires extra care.</span>
 <span class=info-icon>A Note provides additional helpful information for completing a task.</span>
 <span class=hint-icon>A Hint will guide you through a portion of the Challenge Lab.</span>
