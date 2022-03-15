@@ -267,10 +267,6 @@ h1:first-child{
     margin: 0;
 }
 
-.instructions pre code {
-    padding-left: 40px;
-}
-
 /* Lists */
 
 .instructions details ol {
