@@ -97,7 +97,6 @@ h1:first-child {
 
 .instructions details table {
     margin: 1.5em 0 2em 0;
-    background-color: red
 }
 
 /* Icons */
