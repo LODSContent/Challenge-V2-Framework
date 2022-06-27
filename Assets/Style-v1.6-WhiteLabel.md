@@ -96,7 +96,11 @@ h1:first-child {
 }
 
 .instructions details table {
+<<<<<<< HEAD
     margin: 1.5em 0 2em 0;
+=======
+    margin: 1.5em 0 2em 0
+>>>>>>> d746a37387f6d2ed26a9c5ce9319e040ed085ecd
 }
 
 /* Icons */
